@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1081BD;
+}
+
+.container {
+    text-align: center;
+}
+
+.large-image {
+    width: 300px;
+    height: 300px;
+}
+
+.svg-button {
+    display: inline-block;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.svg-image {
+    width: 100%;
+    height: auto;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.small-button {
+    width: 100px;
+    height: 100px;
+}
+
+.column-images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.medium-image {
+    width: 200px;
+    height: 200px;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+.small-image {
+    width: 100px;
+    height: 100px;
+}
